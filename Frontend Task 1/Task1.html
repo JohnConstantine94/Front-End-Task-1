@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=PT Sans'>
+        <script src="function.js"></script>
+
+        <style>
+            body{
+                background-color: #f2f2f2;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <h2 id="left-right">
+            LOGO
+        </h2>
+    
+        <p id="right-left">
+            BN / EN
+        </p>
+
+        
+        <ul class="topnav">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#advertisers">ADVERTISERS</a></li>
+            <li><a href="#publishers">PUBLISHERS</a></li>
+            <li><a href="#influencers">INFLUENCERS</a></li>
+            <li><a href="#ad-formats">AD FORMATS</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact-us">CONTACT US</a></li>
+            <button type="submit">SIGN UP</button>
+            <button type="submit">LOGIN</button>
+        </ul>
+
+    
+        <div class="container">
+            <div class="text">
+              <h2 style="color: #644F9C;">Here will be a Title</h2>
+              <h3>Here will be a text</h3>
+            </div>
+           
+            <div class="artwork">
+                <h3>Artwork for title 1</h3>
+            </div>
+        
+            <div class="text2">
+              <h2 style="text-align: center; color: #644F9C;">AVAILABLE FOR EVERYONE</h2>
+              <h3 style="text-align: center;">Here will be a text</h3>
+            </div>
+        </div>
+
+        <div class="announcement">
+            <div class="pic">
+              <img src="megaphone.jpg" alt="Avatar" height="140px" width="140px" style="border-radius: 80px;">
+              <h2 style="text-align: center;">Text 1</h2>
+              <button type="click">Hello 1</button>
+            </div>
+            <div class="pic">
+                <img src="paperplane.png" alt="Avatar" height="140px" width="140px" style="border-radius: 80px;">
+                <h2 style="text-align: center;">Text 2</h2>
+                <button type="click">Hello 2</button>
+            </div>
+            <div class="pic">
+                <img src="shoutout.png" alt="Avatar" height="140px" width="140px" style="border-radius: 80px;">
+                <h2 style="text-align: center;">Text 3</h2>
+                <button type="submit">Hello 3</button>
+            </div>
+        </div>
+
+        <div class="ad-formats">
+            <div class="text">
+              <h2 style="color: #644F9C; text-align: center;">VERSATILE AD FORMATS</h2>
+            </div>
+
+        <ul class="midnav">
+            <button id="btn" onclick=popunder();>POP-UNDER</button>
+            <button id="btn" onclick=bannerad();>BANNER AD</button>
+            <button id="btn" onclick=native();>NATIVE</button>
+            <button id="btn" onclick=skim();>SKIM</button>
+        </ul>
+        
+        <div class="ad-pic">
+            <img id="image" src="popunder.jpg" height="350px" width="400px" style="margin: 40px 44px; float: left;">
+            <p id="message" style="color: #FF6F00; font-size:40px; padding-top:40px;">POP-UNDER</p>
+            <p id="message2" style="font-size:25px;">This is one of the most popular ads. After user’s click, this ad opens landing page in behind. So, the user experience is not hampered much.</p>   
+        </div>
+
+        <div class="ad-pic">
+          <img id="image" class="hidden" src="bannerad.png" height="350px" width="400px" style="margin: 40px 44px; float: left;">
+            <p id="message" style="color: #FF6F00; font-size:40px; padding-top:40px;" class="hidden">BANNER AD</p>
+            <p id="message2" style="font-size:25px;" class="hidden">Choose between the available banner formats. Highly effective ad for visibility.</p>  
+        </div>
+
+        <div class="ad-pic">
+            <img id="image" class="hidden" src="nativead.jpg" height="350px" width="400px" style="margin: 40px 44px; float: left;">
+              <p id="message" style="color: #FF6F00; font-size:40px; padding-top:40px;" class="hidden">NATIVE</p>
+              <p id="message2" style="font-size:25px;" class="hidden">Ad format with the image and the title, that perfectly fits into
+                the content of the site. Native ads are placed in the most visible areas of the page and, thus, this format shows good results and the level of interaction.</p>  
+        </div>
+
+        <div class="ad-pic">
+            <img id="image" class="hidden" src="skim.jpg" height="350px" width="400px" style="margin: 40px 44px; float: left;">
+              <p id="message" style="color: #FF6F00; font-size:40px; padding-top:40px;" class="hidden">SKIM</p>
+              <p id="message2" style="font-size:25px;" class="hidden">SKIM is a link that a publisher inserts on a specific site
+                element, and after clicking on it, an advertisement appears to the user. SKIM gives 100% control of your sold traffic amount, higher CR to advertisers and CPM rates to publishers.</p>  
+        </div>
+
+        
+        <div class="numbers">
+            <h2 style="text-align: center; color: white;">Title 1</h2>
+
+            
+            <div class="achievements">
+                <p style="color: black; font-size: 40px; text-align: center;">1 BN+</p><p style="color: black; font-size: 20px; text-align: center;">Daily Impressions</p>
+            </div>
+
+            <div class="achievements">
+                <p style="color: #644F9C; font-size: 40px; text-align: center;">$500K+</p><p style="color: #644F9C; font-size: 20px; text-align: center;">Paid</p>
+            </div>
+
+            <div class="achievements">
+                <p style="color: #FF6F00; font-size: 40px; text-align: center;">8K+</p><p style="color: #FF6F00; font-size: 20px; text-align: center;">Global Publishers</p>
+            </div>
+            
+        </div>
+
+        <div class="bottom-section">
+                <p style="color: #644F9C; font-size: 20px;">We are Social</p>
+                <p>FOLLOW US</p>
+                <div class="row">
+                    <div class="col-lg-1"><a href=""><img src="facebook.png" style="height: 30px;" alt="Facebook"></a></div>
+                    <div class="col-lg-1"><a href=""><img src="instagram.jpg" style="height: 30px;" alt="Instagram"></a></div>
+                    <div class="col-lg-1"><a href=""><img src="youtube.jpg" style="height: 30px;" alt="Youtube"></a></div>
+               
+                </div>
+                
+                <div class="row">
+                    <h3>LOGO</h3>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <p style="color: #644F9C; font-size: 20px;">Links</p>
+                <div class="row"><p><b>ADVERTISERS</b></p></div>
+                <div class="row"><p><b>PUBLISHERS</b></p></div>
+                <div class="row"><p><b>INFLUENCERS</b></p></div>
+                <div class="row"><p><b>AD FORMATS</b></p></div>
+            </div>
+            <div class="bottom-section">
+                <p style="color: #644F9C; font-size: 20px;">Documentation</p>
+                <div class="row"><p><b>TERMS & CONDITIONS</b></p></div>
+                <div class="row"><p><b>PRIVACY POLICY</b></p></div>
+                <div class="row"><p><b>CANCELLATION POLICY</b></p></div>
+                <div class="row"><p><b>BLOG</b></p></div>
+            </div>
+            <div class="bottom-section">
+                <p style="color: #644F9C; font-size: 20px;">Support</p>
+                <div class="row"><p><b>FAQ</b></p></div>
+                <div class="row"><p><b>MEDIA KIT</b></p></div>
+                <div class="row"><p><b>CONTACT US</b></p></div>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>
